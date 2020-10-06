@@ -9,7 +9,5 @@ before_script:
 build:
   script:
   - docker build -t "writefreely" .
-  - docker tag "writefreely" "$CI_REGISTRY/$CI_PROJECT_PATH/writefreely:0.12.0"
-  - docker tag "writefreely" "$CI_REGISTRY/$CI_PROJECT_PATH/writefreely:latest"
-  - docker push "$CI_REGISTRY/$CI_PROJECT_PATH/writefreely:0.12.0"
-  - docker push "$CI_REGISTRY/$CI_PROJECT_PATH/writefreely:latest"
+  - docker tag "writefreely" "$CI_REGISTRY/$CI_PROJECT_PATH/writefreely:beta-wysiwyg"
+  - docker push "$CI_REGISTRY/$CI_PROJECT_PATH/writefreely:beta-wysiwyg"
