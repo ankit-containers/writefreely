@@ -1,7 +1,6 @@
 # Writefreely
 
-[![Pipeline](https://gitlab.com/ankit-containers/writefreely/badges/main/pipeline.svg)](https://gitlab.com/ankit-containers/writefreely/-/pipelines)
-
+[![Build Status](https://drone.argd.in/api/badges/meta/writefreely/status.svg)](https://drone.argd.in/meta/writefreely)
 
 WriteFreely is the Golang based open-source version of the amazingly minimalist
 and privacy-focused blogging platform, Write.as. It can run in Single-mode for a
@@ -37,6 +36,6 @@ docker run -d \
   -v /path/to/config-dir:/config \
   -v /path/to/sqlite-data:/data \  # Optional
   -p 8080:8080 \                   # Change according to the port in configuration
-  registry.gitlab.com/ankit-containers/writefreely/writefreely:latest
+  quay.io/ankitrgadiya/writefreely:latest
   /writefreely/writefreely -c /config/config.ini
 ```
