@@ -1,6 +1,6 @@
 # Writefreely
 
-[![Build Status](https://drone.argd.in/api/badges/meta/writefreely/status.svg)](https://drone.argd.in/meta/writefreely)
+[![Registry](https://img.shields.io/badge/registry-quay.io-red)](https://quay.io/repository/ankitrgadiya/writefreely?tab=tags)
 
 WriteFreely is the Golang based open-source version of the amazingly minimalist
 and privacy-focused blogging platform, Write.as. It can run in Single-mode for a
