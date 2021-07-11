@@ -5,7 +5,7 @@
 FROM debian:buster-slim
 LABEL MAINTAINER="Ankit R Gadiya git@argp.in"
 
-ENV WRITE_VERSION="0.12.0"
+ENV WRITE_VERSION="0.13.0"
 
 RUN apt update \
   && apt install wget -y \
